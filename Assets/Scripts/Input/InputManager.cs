@@ -26,7 +26,7 @@ public class InputAxisState{
 	// Convert the axis state to a button press and get a value out to determine 
 	// whether the button is being pressed or not. In order to do this, test the value 
 	// that we're getting back from the axis itself, inside of our axis state. 
-	// Use enum called Condition andkeep track of the value of greater than or less than as it 
+	// Use enum called Condition and keep track of the value of greater than or less than as it 
 	// relates to the off value of the InputAxisState.
 	public bool value{
 		get{

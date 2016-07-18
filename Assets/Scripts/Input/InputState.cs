@@ -13,7 +13,14 @@ public class ButtonState{
 	public float holdTime = 0;  // how long a button has actually been pressed
 }
 
+public enum Directions{
+	Right = 1,
+	Left = -1
+}
+
 public class InputState : MonoBehaviour {
+
+	public Directions direction = Directions.Right;
 
 	private Dictionary<Buttons, ButtonState> buttonStates = new Dictionary<Buttons,ButtonState>();
 
