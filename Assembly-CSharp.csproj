@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{645BE805-C5CA-E5AC-A711-82907CBEDF60}</ProjectGuid>
+    <ProjectGuid>{BB4ED94F-BED7-1102-6C3B-80F35E8AFF64}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\Behaviors\FaceDirection.cs" />
      <Compile Include="Assets\Scripts\Behaviors\SimpleMovement.cs" />
      <Compile Include="Assets\Scripts\Behaviors\Walk.cs" />
+     <Compile Include="Assets\Scripts\Collision\CollisionState.cs" />
      <Compile Include="Assets\Scripts\Input\InputManager.cs" />
      <Compile Include="Assets\Scripts\Input\InputState.cs" />
      <Compile Include="Assets\Scripts\Managers\PlayerManager.cs" />

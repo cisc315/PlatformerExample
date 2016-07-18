@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{E3BBAA57-9C2F-CC6C-0991-84AF1188E869}") = "04PlayerCollisions", "Assembly-CSharp.csproj", "{BB4ED94F-BED7-1102-6C3B-80F35E8AFF64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB4ED94F-BED7-1102-6C3B-80F35E8AFF64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB4ED94F-BED7-1102-6C3B-80F35E8AFF64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB4ED94F-BED7-1102-6C3B-80F35E8AFF64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB4ED94F-BED7-1102-6C3B-80F35E8AFF64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
