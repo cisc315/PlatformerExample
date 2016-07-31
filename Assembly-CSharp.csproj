@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BB4ED94F-BED7-1102-6C3B-80F35E8AFF64}</ProjectGuid>
+    <ProjectGuid>{DD22ABC5-6A81-8945-3A4B-8123E6424A30}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,12 +46,24 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Behaviors\AbstractBehavior.cs" />
+     <Compile Include="Assets\Scripts\Behaviors\Duck.cs" />
+     <Compile Include="Assets\Scripts\Behaviors\Equip.cs" />
      <Compile Include="Assets\Scripts\Behaviors\FaceDirection.cs" />
+     <Compile Include="Assets\Scripts\Behaviors\FireProjectile.cs" />
+     <Compile Include="Assets\Scripts\Behaviors\Jump.cs" />
+     <Compile Include="Assets\Scripts\Behaviors\LongJump.cs" />
      <Compile Include="Assets\Scripts\Behaviors\SimpleMovement.cs" />
+     <Compile Include="Assets\Scripts\Behaviors\StickToWall.cs" />
      <Compile Include="Assets\Scripts\Behaviors\Walk.cs" />
+     <Compile Include="Assets\Scripts\Behaviors\WallJump.cs" />
+     <Compile Include="Assets\Scripts\Behaviors\WallSlide.cs" />
+     <Compile Include="Assets\Scripts\Collision\Collectable.cs" />
      <Compile Include="Assets\Scripts\Collision\CollisionState.cs" />
+     <Compile Include="Assets\Scripts\Effects\DustEffect.cs" />
      <Compile Include="Assets\Scripts\Input\InputManager.cs" />
      <Compile Include="Assets\Scripts\Input\InputState.cs" />
+     <Compile Include="Assets\Scripts\Items\FireBall.cs" />
+     <Compile Include="Assets\Scripts\Items\PowerUpFlower.cs" />
      <Compile Include="Assets\Scripts\Managers\PlayerManager.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
